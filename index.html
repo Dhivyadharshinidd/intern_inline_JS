@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS1</title>
+
+</head>
+
+<body style="text-align: center;">
+    <h1>Inline,Internal and External JS</h1>
+    <h4 id="internal"></h4>
+    <button onclick="alert('Hi! from Inline JS');">Click Me..I'm from Inline JS</button>
+    <h4 id="extern"></h4>
+    <script>
+        const value = "Hi I'm from Internal JS";
+        document.getElementById("internal").innerHTML = value;
+    </script>
+
+</body>
+
+</html>
